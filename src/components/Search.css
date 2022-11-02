@@ -1,0 +1,23 @@
+.search{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.search .search-box{
+    width: 50%;
+    margin-left: 10%;
+    
+    
+}
+
+.search .btn-search{
+    background-color: #620974;
+    padding: 10px;
+    color: #ffffff;
+    width: 20%;
+    border: 2px solid #000000;
+}

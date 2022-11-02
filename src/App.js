@@ -1,10 +1,15 @@
 import './App.css';
-import Title from './components/Title';
+import Header from './components/Header';
+import Search from './components/Search';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <Title />
+      <Header />
+      <Search />
+      <Footer />
+
     </div>
   );
 }
