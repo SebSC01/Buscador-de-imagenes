@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-/* .wrapper {
+.wrapper {
   min-height: calc(100% - 4rem);
 
-} */
+}
 .footer {
   width: 100%;
   height: 15rem;
@@ -17,10 +17,11 @@
 .footer .grupo1{
   width: 100%;
   max-width: 1200px;
-  margin: auto;
+  margin: 10px;
   display: flex;
   flex-direction: column(2);
-  padding: 45px 0px;
+  -ms-flex-align: center;
+  padding: 45px;
   align-items: center;
 }
 
@@ -35,7 +36,7 @@
   margin-bottom: 10px;
 }
 
-.footer .grupo1 .red-social button{
+.footer .grupo1 .red-social a{
   display: inline-block;
   text-decoration: none;
   width: 45px;

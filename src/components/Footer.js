@@ -21,10 +21,10 @@ const Footer = () => {
                     <div className='box'>
                         <h2>Sigueme</h2>
                         <div className='red-social'>
-                            
-                            <button type="submit" className='fa fa-facebook'></button>
-                            <button type="submit" className='fa fa-instagram'></button>
-                            <button type="submit" className='fa fa-twitter'></button>
+                            <a href="https://www.facebook.com/silvanico1/" className='fa fa-facebook' target="_black"></a>
+                            <a href="https://www.instagram.com/sebsc0/" className='fa fa-instagram' target="_black"></a>
+                            <a href="https://twitter.com/SebSC01" className='fa fa-twitter' target="_black"></a>
+
                         </div>
                     </div>
 
@@ -40,4 +40,3 @@ const Footer = () => {
 }
 
 export default Footer;
-

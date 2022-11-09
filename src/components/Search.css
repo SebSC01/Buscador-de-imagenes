@@ -21,3 +21,23 @@
     width: 20%;
     border: 2px solid #000000;
 }
+
+.main__content .main__content--grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+  }
+  
+  .main__content .main__content--grid img{
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .main__content {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+  }
